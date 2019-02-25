@@ -1,10 +1,9 @@
 {
-  "name": "eslint-config-hesburgh",
+  "name": "@hesburgh-wse/eslint-config-hesburgh",
   "version": "1.0.0",
   "description": "Linting configuration used by projects at The Hesburgh Library at The University of Notre Dame.",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ndlib/eslint-config-hesburgh.git"
