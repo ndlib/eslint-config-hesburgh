@@ -1,6 +1,6 @@
 # Install
 
-`yarn install https://github.com/ndlib/eslint-config-hesburgh`
+`yarn add @hesburgh-wse/eslint-config-hesburgh`
 
 # Usage
 Create or update the `.eslintrc` file at the root of your directory to include:
