@@ -1,6 +1,6 @@
 {
   "name": "@hesburgh-wse/eslint-config-hesburgh",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Linting configuration used by projects at The Hesburgh Library at The University of Notre Dame.",
   "main": "index.js",
   "scripts": {},
@@ -19,7 +19,7 @@
     "url": "https://github.com/ndlib/eslint-config-hesburgh/issues"
   },
   "homepage": "https://github.com/ndlib/eslint-config-hesburgh#readme",
-  "peerDependencies": {
+  "dependencies": {
     "babel-eslint": ">=9.0.0",
     "eslint": ">=5.6.0",
     "eslint-config-react-app": ">=3.0.4",
