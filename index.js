@@ -10,6 +10,7 @@ module.exports = {
   "plugins" : [
     "babel",
     "react",
+    "react-hooks",
     "promise"
   ],
   "env" : {
@@ -31,7 +32,12 @@ module.exports = {
     "no-unused-vars"        : [1, { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
     "no-var"              : 1,
     "object-curly-spacing"  : [2, "always"],
+    "prefer-const": [1, {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": true
+    }],
     "react/prop-types"      : 1,
+    "react-hooks/rules-of-hooks": "error",
     "semi"                  : [2, "never"],
     "space-in-parens"       : ["error", "never"],
 
