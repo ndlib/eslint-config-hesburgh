@@ -1,6 +1,6 @@
 {
   "name": "@hesburgh-wse/eslint-config-hesburgh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Linting configuration used by projects at The Hesburgh Library at The University of Notre Dame.",
   "main": "index.js",
   "scripts": {},
@@ -33,6 +33,7 @@
     "eslint-plugin-node": ">=8.0.0",
     "eslint-plugin-promise": ">=4.0.1",
     "eslint-plugin-react": ">=7.11.1",
+    "eslint-plugin-react-hooks": "^1.5.1",
     "eslint-plugin-standard": ">=4.0.0"
   }
 }
